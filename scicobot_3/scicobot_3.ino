@@ -10,6 +10,8 @@ const int PINO_IN4 = 7;
 
 int speed1;
 int speed2;
+int motor1PWM;
+int motor2PWM;
 
 int i = 0; //declaracao da variavel para as rampas
 
@@ -21,6 +23,8 @@ char rdata; // received charactors
 String rStr = "";
 
 int params[4];
+
+void run_motors();
 
 void setup() {
   Serial.begin(9600);
@@ -52,13 +56,22 @@ void loop() {
       if(rStr.substring(0, 2).equals("o ")) 
       {
         int sepIndex = rStr.indexOf(" ", 2); // começando em 2 pq "o " ocupam 0 e 1
-        int spped1 = rStr.substring(2, sepIndex).toInt();
-        Serial.print("spped1 ");
-        Serial.println(spped1);
-        int speed2 = rStr.substring(sepIndex+1).toInt();
+        speed1 = rStr.substring(2, sepIndex).toInt();
+        Serial.print("speed1 ");
+        Serial.println(speed1);
+        speed2 = rStr.substring(sepIndex+1).toInt();
         Serial.print("speed2 ");
         Serial.println(speed2);
+        
+        motor1PWM = abs(speed1); //módulo para definição da velocidade do motor A
+        motor2PWM = abs(speed2); //módulo para definição da velocidade do motor B
 
+        Serial.print("motor1PWM ");
+        Serial.println(motor1PWM);
+        Serial.print("motor2PWM ");
+        Serial.println(motor2PWM);
+        
+        run_motors();
       }
 //    if(rStr.substring(0, 1).toInt() == "P")
 //    {
@@ -66,6 +79,8 @@ void loop() {
       rStr = "";
     }
   }
+
+
     
   // //configura os motores para o sentido horario
   // digitalWrite(PINO_IN1, LOW); 
@@ -111,4 +126,27 @@ void loop() {
 
   // delay(TEMPO_ESPERA); //intervalo de um segundo
   
+}
+
+void run_motors(){
+  if (speed1 >= 0) { //Sentido Horario
+        digitalWrite(PINO_IN1, LOW); //Direção motor 1
+        digitalWrite(PINO_IN2, HIGH); //Direção motor 1
+        analogWrite(PINO_ENA, motor1PWM); // Velocidade motor 1
+    } else {
+        digitalWrite(PINO_IN1, HIGH); //Direção motor 1
+        digitalWrite(PINO_IN2, LOW); //Direção motor 1
+        analogWrite(PINO_ENA, motor1PWM); // Velocidade motor 1
+    }
+
+    // Controle do Motor 2
+    if (speed2 >= 0) {
+        digitalWrite(PINO_IN3, LOW); //Direção motor 2
+        digitalWrite(PINO_IN4, HIGH); //Direção motor 2
+        analogWrite(PINO_ENB, motor2PWM); // Velocidade motor 2
+    } else {
+        digitalWrite(PINO_IN3, HIGH); //Direção motor 2
+        digitalWrite(PINO_IN4, LOW); //Direção motor 2
+        analogWrite(PINO_ENB, motor2PWM); // Velocidade motor 2
+    }
 }
