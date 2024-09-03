@@ -43,9 +43,10 @@ void loop() {
   if (Serial.available()) {
     rdata = Serial.read(); // Lê um caractere da porta serial
     rStr = rStr + rdata;   // Concatena o caractere na string rStr
+  //Serial.println(rStr);
 
     // Verifica se o caractere recebido é uma nova linha ('\n')
-    if(rdata == '\n') {
+    if(rdata == '\r') {
       // Verifica se a string recebida começa com "o "
       if(rStr.substring(0, 2).equals("o ")) {
         int sepIndex = rStr.indexOf(" ", 2); // Encontra o índice do espaço após "o "
