@@ -53,3 +53,5 @@ Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outr
 <p align="center">
   <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem_comentada.png"/ height="580" width="1080">
 </p>
+
+O código foi utilizado apenas para testes e estudo, o projeto não empregou a ideia acima. Mas para futuros contribuintes com a pesquisa, acredita-se que seria de grande valia a implementação de um script que controlasse o robô pelo ROS aproveitando o material.
