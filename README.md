@@ -1,5 +1,9 @@
 # SciCoBot
 
+<p align="center">
+  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+</p>
+
 Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada.
 
  * scicobot.ino: feito para controlar os motores separadamente, por uma entrada serial, que recebe dois valores entre -255 a 255. O módulo do número recebido indica a velocidade de rotação do motor, enquanto a condição de maior ou menor que zero indica o sentido de rotação do mesmo. Os parâmetros a serem recebidos são:
@@ -16,7 +20,21 @@ E para o máximo em sentido anti-horário para ambos motores, escreva:
     o -255 -255
 
 
-OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "9600 baud".
+OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "9600 baud". A montagem está apresentada abaixo:
+
+<p align="center">
+  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+</p>
+
+<p align="center">
+  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+</p>
+
+<p align="center">
+  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+</p>
+
+Além disso, [aqui](https://index.ros.org/r/teleop_twist_keyboard/#foxy) está presente o manual do projeto. Nele foi apresentado da forma mais didática possível como o robô foi pensado, montado e executado.
 
 # Outros códigos:
 
