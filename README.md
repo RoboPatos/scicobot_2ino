@@ -23,7 +23,7 @@ E para o máximo em sentido anti-horário para ambos motores, escreva:
 OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "9600 baud". A montagem está apresentada abaixo:
 
 <p align="center">
-  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="400" width="750">
 </p>
 
 <p align="center">
