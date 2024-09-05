@@ -1,5 +1,3 @@
-# SciCoBot
-
 <p align="center">
   <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="200" width="1080">
 </p>
