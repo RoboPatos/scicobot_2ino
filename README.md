@@ -23,11 +23,11 @@ E para o máximo em sentido anti-horário para ambos motores, escreva:
 OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "9600 baud". A montagem está apresentada abaixo:
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="500" width="1080">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="845" width="770">
 </p>
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem.png"/ height="1455" width="2289">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem.png"/ height="500" width="1080">
 </p>
 
 <p align="center">
