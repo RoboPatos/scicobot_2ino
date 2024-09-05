@@ -34,7 +34,7 @@ OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "96
   <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="700" width="1080">
 </p>
 
-Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Guia%20SciCoBot%20Motor.docx) está presente o manual do projeto. Nele foi apresentado da forma mais didática possível como o robô foi pensado, montado e executado.
+Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Guia%20SciCoBot%20Motor.docx) está presente o manual do projeto. Nele foi apresentado da forma mais didática possível como o robô foi pensado, montado e executado,desde a instalação de programas, até o uso do projeto aqui descrito.
 
 # Outros códigos:
 
