@@ -1,7 +1,7 @@
 # SciCoBot
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="232" width="1080">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="200" width="1080">
 </p>
 
 Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada.
