@@ -1,7 +1,7 @@
 # SciCoBot
 
 <p align="center">
-  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="400" width="750">
 </p>
 
 Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada.
@@ -27,14 +27,14 @@ OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "96
 </p>
 
 <p align="center">
-  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem.png"/ height="400" width="750">
 </p>
 
 <p align="center">
-  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="400" width="750">
 </p>
 
-Além disso, [aqui](https://index.ros.org/r/teleop_twist_keyboard/#foxy) está presente o manual do projeto. Nele foi apresentado da forma mais didática possível como o robô foi pensado, montado e executado.
+Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Guia%20SciCoBot%20Motor.docx) está presente o manual do projeto. Nele foi apresentado da forma mais didática possível como o robô foi pensado, montado e executado.
 
 # Outros códigos:
 
