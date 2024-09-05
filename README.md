@@ -47,9 +47,9 @@ Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outr
     7) Para frente (horário)
 ```
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem.png"/ height="700" width="1080">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem.png"/ height="302" width="1195">
 </p>
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem_comentada.png"/ height="700" width="1080">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem_comentada.png"/ height="580" width="1080">
 </p>
