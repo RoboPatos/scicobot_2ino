@@ -46,4 +46,10 @@ Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outr
     6) Para trás (anti-horário)
     7) Para frente (horário)
 ```
+<p align="center">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem.png"/ height="700" width="1080">
+</p>
 
+<p align="center">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem_comentada.png"/ height="700" width="1080">
+</p>
