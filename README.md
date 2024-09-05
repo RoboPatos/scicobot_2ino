@@ -1,7 +1,7 @@
 # SciCoBot
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="400" width="750">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="232" width="1080">
 </p>
 
 Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada.
@@ -23,7 +23,7 @@ E para o máximo em sentido anti-horário para ambos motores, escreva:
 OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "9600 baud". A montagem está apresentada abaixo:
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="400" width="750">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="700" width="750">
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "96
 </p>
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="400" width="750">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="600" width="1100">
 </p>
 
 Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Guia%20SciCoBot%20Motor.docx) está presente o manual do projeto. Nele foi apresentado da forma mais didática possível como o robô foi pensado, montado e executado.
