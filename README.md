@@ -2,7 +2,7 @@
   <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="200" width="1080">
 </p>
 
-Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada.
+Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada. Para ter acesso aos arquivos a serem compilados no Raspberry Pi, clique [aqui] (https://github.com/NatanaelAmil/serial_motor_demo).
 
 ## SciCoBot 2024
 
@@ -70,12 +70,4 @@ Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outr
     6) Para trás (anti-horário)
     7) Para frente (horário)
 ```
-<p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem.png"/ height="302" width="1195">
-</p>
-
-<p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem_comentada.png"/ height="580" width="1080">
-</p>
-
-O código `scicobot_1-7.ino` foi utilizado apenas para testes e estudo, a versão final do projeto não seguiu continuidade com a ideia. Mas para futuros contribuintes com a pesquisa, acredita-se que seria de grande valia a implementação de um script que capaz de aproveitar o material.
+ * OBS: O código `scicobot_1-7.ino` foi utilizado apenas para testes e estudo, a versão final do projeto não seguiu continuidade com a ideia. Mas para futuros contribuintes com a pesquisa, acredita-se que seria de grande valia a implementação de um script que capaz de aproveitar o material.
