@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="200" width="1080">
+  <img src="https://github.com/RoboPatos/scicobot_2ino/blob/main/outros_arquivos/LOGO.png"/ height="200" width="1080">
 </p>
 
-Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada. Para ter acesso aos arquivos a serem compilados no Raspberry Pi, clique [aqui] (https://github.com/NatanaelAmil/serial_motor_demo).
+Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada. Para ter acesso aos arquivos a serem compilados no Raspberry Pi, clique [aqui](https://github.com/RoboPatos/serial_motor_demo.git).
 
 ## SciCoBot 2024
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="845" width="770">
+  <img src="https://github.com/RoboPatos/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="845" width="770">
 </p>
 
             TABELA DE LIGAÇÃO
@@ -35,7 +35,7 @@ Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem s
        * Remover jumper do VLogic
 
 <p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="700" width="1080">
+  <img src="https://github.com/RoboPatos/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="700" width="1080">
 </p>
 
  * scicobot.ino: feito para controlar os motores separadamente, por uma entrada serial, que recebe dois valores entre -255 a 255. O módulo do número recebido indica a velocidade de rotação do motor, enquanto a condição de maior ou menor que zero indica o sentido de rotação do mesmo. Os parâmetros a serem recebidos são:
