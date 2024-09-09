@@ -4,6 +4,40 @@
 
 Aqui são apresentados códigos Arduino Usados no projeto SciCoBot. Eles devem ser carregados separadamente pela IDE antes da conexão serial ser efetuada.
 
+## SciCoBot 2024
+
+<p align="center">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="845" width="770">
+</p>
+
+            TABELA DE LIGAÇÃO
+
+      Arduino      |     Ponte H
+      --------------------------------
+         5V        |       +12V
+      --------------------------------
+        GND        |        GND
+      --------------------------------
+         5V        |        +5V
+      --------------------------------
+         D3        |        IN2
+      --------------------------------
+         D4        |        IN1
+      --------------------------------
+         D5        |        ENB
+      --------------------------------
+         D6        |        ENA
+      --------------------------------
+         D7        |        IN4
+      --------------------------------
+         D8        |        IN3
+      --------------------------------
+       * Remover jumper do VLogic
+
+<p align="center">
+  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="700" width="1080">
+</p>
+
  * scicobot.ino: feito para controlar os motores separadamente, por uma entrada serial, que recebe dois valores entre -255 a 255. O módulo do número recebido indica a velocidade de rotação do motor, enquanto a condição de maior ou menor que zero indica o sentido de rotação do mesmo. Os parâmetros a serem recebidos são:
 
     `o <velocidade e sentido do motor1> <velocidade e sentido do motor2>`
@@ -20,17 +54,7 @@ E para o máximo em sentido anti-horário para ambos motores, escreva:
 
 OBS: Para testes com a arduino IDE, marque a opção de "Retorno de Linha" e "9600 baud". A montagem está apresentada abaixo:
 
-<p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/scicobot.png"/ height="845" width="770">
-</p>
 
-<p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem.png"/ height="500" width="1080">
-</p>
-
-<p align="center">
-  <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Montagem_comentada.png"/ height="700" width="1080">
-</p>
 
 Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/Guia%20SciCoBot%20Motor.docx) está presente o manual do projeto. Nele foi apresentado da forma mais didática possível como o robô foi pensado, montado e executado,desde a instalação de programas, até o uso do projeto aqui descrito.
 
@@ -54,4 +78,4 @@ Além disso, [aqui](https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outr
   <img src="https://github.com/NatanaelAmil/scicobot_2ino/blob/main/outros_arquivos/outra montagem_comentada.png"/ height="580" width="1080">
 </p>
 
-O código foi utilizado apenas para testes e estudo, o projeto não empregou a ideia acima. Mas para futuros contribuintes com a pesquisa, acredita-se que seria de grande valia a implementação de um script que controlasse o robô pelo ROS aproveitando o material.
+O código `scicobot_1-7.ino` foi utilizado apenas para testes e estudo, a versão final do projeto não seguiu continuidade com a ideia. Mas para futuros contribuintes com a pesquisa, acredita-se que seria de grande valia a implementação de um script que capaz de aproveitar o material.
